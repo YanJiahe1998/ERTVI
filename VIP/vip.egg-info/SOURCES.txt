@@ -1,0 +1,16 @@
+README.rst
+setup.py
+vip/__init__.py
+vip.egg-info/PKG-INFO
+vip.egg-info/SOURCES.txt
+vip.egg-info/dependency_links.txt
+vip.egg-info/top_level.txt
+vip/kernel/__init__.py
+vip/kernel/kernel.py
+vip/kernel/setup.py
+vip/kernel/test.py
+vip/kernel/test_kernel.py
+vip/pyvi/__init__.py
+vip/pyvi/advi.py
+vip/pyvi/optimizer.py
+vip/pyvi/svgd.py

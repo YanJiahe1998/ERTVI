@@ -1,0 +1,68 @@
+Inverse model for field experiment in the Chenqi watershed originated from a project supported by the UK Natural Environment Research Council (NERC) Grant NE/N007409/1 awarded to Lancaster University.
+
+    1    6  3.0    0    2
+
+
+    0 << num_regions
+    resistivity.dat
+              
+    1  0.0  << inverse_type, target_decrease
+
+    0    0 << data type (0=normal;1=log), regularization type
+  
+    1.0    10    0    1.0  << tolerance, max_iterations, error_mod, alpha_aniso
+  
+  
+   0.00100   0.05000   -10000.0    10000.0  <<  a_wgt, b_wgt, rho_min, rho_max
+
+    0  << num_poly
+
+  48  << num_electrodes
+1	589
+2	785
+3	981
+4	1177
+5	1373
+6	1569
+7	1765
+8	1961
+9	2157
+10	2353
+11	2549
+12	2745
+13	2941
+14	3137
+15	3333
+16	3529
+17	3725
+18	3921
+19	4117
+20	4313
+21	4509
+22	4705
+23	4901
+24	5097
+25	5293
+26	5489
+27	5685
+28	5881
+29	6077
+30	6273
+31	6469
+32	6665
+33	6861
+34	7057
+35	7253
+36	7449
+37	7645
+38	7841
+39	8037
+40	8233
+41	8429
+42	8625
+43	8821
+44	9017
+45	9213
+46	9409
+47	9605
+48	9801

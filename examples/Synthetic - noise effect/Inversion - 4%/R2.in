@@ -1,0 +1,71 @@
+Inverse model for synthetic experiment on the effect of electrode configurations - DipoleDipole - 4% noise
+
+    1    6  3.0    0    2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+   0 << num_regions
+    resistivity.dat   
+    
+      1  0.0  << inverse_type, target_decrease
+  
+      0    0 << data type (0=normal;1=log), regularization type
+  
+    1    10    0    1.0  << tolerance, max_iterations, error_mod, alpha_aniso
+  
+  
+   0.00000   0.0400   -1000.0    1000.0  <<  a_wgt, b_wgt, rho_min, rho_max
+  
+              
+    0  << num_poly
+  
+  
+  50  << num_electrodes
+1	401
+2	521
+3	641
+4	761
+5	881
+6	1001
+7	1121
+8	1241
+9	1361
+10	1481
+11	1601
+12	1721
+13	1841
+14	1961
+15	2081
+16	2201
+17	2321
+18	2441
+19	2561
+20	2681
+21	2801
+22	2921
+23	3041
+24	3161
+25	3281
+26	3401
+27	3521
+28	3641
+29	3761
+30	3881
+31	4001
+32	4121
+33	4241
+34	4361
+35	4481
+36	4601
+37	4721
+38	4841
+39	4961
+40	5081
+41	5201
+42	5321
+43	5441
+44	5561
+45	5681
+46	5801
+47	5921
+48	6041
+49	6161
+50	6281

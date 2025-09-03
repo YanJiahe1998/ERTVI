@@ -1,0 +1,14 @@
+build/
+*.so
+__pycache__/
+fwi2d/__pycache__
+fwi2d/*.so
+fwi2d/pyacofwi2D.c
+fwi2d/*.a
+fwi2d/*.o
+tomo2d/__pycache__
+tomo2d/*.so
+tomo2d/pyfm2d.c
+tomo2d/*.a
+tomo2d/*.o
+fwi3d/__pycache__
