@@ -11,6 +11,6 @@ Grant NE/N007409/1 awarded to Lancaster University.
 
 Yan, J., Zeng, Z., Tso, C. H. M., Cheng, Q., & Binley, A. (2025). Uncertainty in Hydrogeophysics: Electrical Resistivity Tomography with Variational Inferences. *in preparation*
 
-Zhang, X., & Curtis, A. (2024a). VIP - Variational Inversion Package with example implementations of Bayesian tomographic imaging. *Seismica*, 3(1). https://doi.org/10.26443/seismica.v3i1.1143
+Zhang, X., & Curtis, A. (2024). VIP - Variational Inversion Package with example implementations of Bayesian tomographic imaging. *Seismica*, 3(1). https://doi.org/10.26443/seismica.v3i1.1143
 
 Zhang, X., & Curtis, A. (2020). Seismic Tomography Using Variational Inference Methods. *Journal of Geophysical Research-Solid Earth*, 125(4). https://doi.org/10.1029/2019JB018589
