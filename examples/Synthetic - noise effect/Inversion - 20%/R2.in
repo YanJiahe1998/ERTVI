@@ -9,7 +9,7 @@ Inverse model for synthetic experiment on the effect of electrode configurations
   
       0    0 << data type (0=normal;1=log), regularization type
   
-    1    10    0    1.0  << tolerance, max_iterations, error_mod, alpha_aniso
+    1.1    10    0    1.0  << tolerance, max_iterations, error_mod, alpha_aniso
   
   
    0.00000   0.200   -1000.0    1000.0  <<  a_wgt, b_wgt, rho_min, rho_max
@@ -68,4 +68,5 @@ Inverse model for synthetic experiment on the effect of electrode configurations
 47	5921
 48	6041
 49	6161
+
 50	6281
