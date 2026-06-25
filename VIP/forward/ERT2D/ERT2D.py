@@ -263,11 +263,11 @@ class ERT2D():
         grad, mask = self.prior.grad(theta, grad=grad)
         grad[:,self.mask] = 0
         print(f'Average loss and negative log posterior: {np.mean(loss)} {np.mean(-lglike)}')
-        print(f'RMS: {np.sqrt(np.mean(loss)/self.nobs)}')
+        print(f'RMS: {np.sqrt(np.mean(loss*2)/self.nobs)}')
         with open('./results/RMS.txt',"a") as f:
-            np.savetxt(f,[np.sqrt(np.mean(loss)/self.nobs)])
+            np.savetxt(f,[np.sqrt(np.mean(loss*2)/self.nobs)])
             
-        if ( np.sqrt(np.mean(loss) / self.nobs) < (self.targetRMS / self.scalingfactor) ):
+        if ( np.sqrt(np.mean(loss*2) / self.nobs) < (self.targetRMS / self.scalingfactor) ):
             self.isstop = True
              
         print(f'Max. Mean and Median grad: {np.max(abs(grad))} {np.mean(abs(grad))} {np.median(abs(grad))}')
